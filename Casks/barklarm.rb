@@ -1,6 +1,6 @@
 cask "barklarm" do
-  version "2.1.0"
-  sha256 "50b213b65fc6ddc7571f72e4cbbaada181151a295383637049e3c4e5cd5994f4"
+  version "2.1.1"
+  sha256 :no_check
 
   url "https://github.com/Barklarm/barklarm-app/releases/download/v#{version}/barklarm-#{version}-arm64.dmg",
       verified: "github.com/Barklarm/barklarm-app"
